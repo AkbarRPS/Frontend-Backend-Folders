@@ -1,0 +1,17 @@
+# Backend
+__pycache__/
+env/
+venv/
+*.pyc
+Sentify_Report.pdf
+
+# Frontend
+node_modules/
+dist/
+.env
+
+# Data (Penting!)
+# Karena data_FPL.csv sangat besar (114rb baris), 
+# biasanya GitHub akan menolak jika file >100MB.
+# Jika filemu kecil, bisa dimasukkan. Jika besar, aktifkan baris bawah:
+# data_FPL.csv
